@@ -11,8 +11,13 @@ An interactive visualization built using D3.js, enabling users to explore, selec
 
 ## Technologies Used
 
+## Technologies Used
+
 - **D3.js**: For creating and manipulating the geojson map.
-- **JavaScript**: Used for handling interactions and data management.
+- **JavaScript**: Used for handling interactions.
 - **GeoJSON**: Utilized for the geographical features data necessary for mapping.
+- **HTML**: Provides the structure of the web page and integrates the SVG elements used for the interactive map.
+- **CSS**: Styles the visual elements of the page, including the map and user interface controls, ensuring a pleasant and intuitive user experience.
+
 
 
