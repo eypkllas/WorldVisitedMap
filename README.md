@@ -13,7 +13,7 @@ An interactive visualization built using D3.js, enabling users to explore, selec
 - **Country Selection**: Click on countries to select or deselect them, and automatically update the count and list of selected countries.
 - **Dynamic Updates**: The count of selected countries and the list itself are dynamically updated in real time as you interact with the map.
 
-## Technologies Used
+
 
 ## Technologies Used
 
