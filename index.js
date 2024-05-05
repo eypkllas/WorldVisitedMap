@@ -47,6 +47,7 @@ d3.json("countries.geo.json", function (data) {
        .attr("d", path) 
        .attr("fill", MAP_COLOR) 
        .attr("stroke", "#000") // borders
+       
        .on("mouseover", function(d) { 
            infotip.text(d.properties.name).style("visibility", "visible"); 
            if (!d3.select(this).classed("selected")) {
