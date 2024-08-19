@@ -31,7 +31,7 @@ d3.json("countries.geo.json", function (data) {
 
    
     let projection = d3.geoMercator().fitSize([width, height], data);      // Create a Mercator projection that fits the SVG dimensions and data
-    let path = d3.geoPath().projection(projection);                       // Generate a geographic path generator using the specified projection
+    let path = d3.geoPath().projection(projection);                       // Generate a geographic path generator using the projection
 
     // Create SVG element 
     let svg = d3.select("#map_container")
